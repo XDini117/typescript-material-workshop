@@ -1,10 +1,10 @@
 import { Providers } from "./providers";
-import Card from "./components/card";
+import View from "./sections/view";
 
 export default function App() {
   return (
     <Providers>
-      <Card />
+      <View />
     </Providers>
   );
 }
