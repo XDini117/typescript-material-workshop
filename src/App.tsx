@@ -1,3 +1,10 @@
+import { Providers } from "./providers";
+import Card from "./components/card";
+
 export default function App() {
-  return <div>El Workshop</div>;
+  return (
+    <Providers>
+      <Card />
+    </Providers>
+  );
 }
