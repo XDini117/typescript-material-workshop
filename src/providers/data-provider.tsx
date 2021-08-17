@@ -1,7 +1,7 @@
 import { ReactNode, useState, useEffect } from "react";
 import axios from "axios";
 
-import { dataContext, dataInitialState } from "../contexts/dataContext";
+import { dataContext, dataInitialState } from "../contexts/data-context";
 
 interface DataProps {
   children: ReactNode;

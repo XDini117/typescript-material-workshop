@@ -1,4 +1,4 @@
-import { useData } from "../contexts/dataContext";
+import { useData } from "../contexts/data-context";
 
 export default function View() {
   const { data } = useData();
